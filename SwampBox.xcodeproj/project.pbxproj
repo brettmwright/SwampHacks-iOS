@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13FA7D8A3D7CA26B2E2653AA /* Pods_SwampBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB35792C1108FC619EC95CE /* Pods_SwampBox.framework */; };
 		BC8D3BF220131937006F9B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3BF120131937006F9B25 /* AppDelegate.swift */; };
-		BC8D3BF420131937006F9B25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3BF320131937006F9B25 /* ViewController.swift */; };
+		BC8D3BF420131937006F9B25 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3BF320131937006F9B25 /* MainVC.swift */; };
 		BC8D3BF720131937006F9B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3BF520131937006F9B25 /* Main.storyboard */; };
 		BC8D3BF920131937006F9B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3BF820131937006F9B25 /* Assets.xcassets */; };
 		BC8D3BFC20131937006F9B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3BFA20131937006F9B25 /* LaunchScreen.storyboard */; };
+		BC8D3C0420131BDB006F9B25 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3C0320131BDB006F9B25 /* awsconfiguration.json */; };
+		BC8D3C0720134CFE006F9B25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3C0620134CFE006F9B25 /* GoogleService-Info.plist */; };
+		BC8D3C0A2013767E006F9B25 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C092013767E006F9B25 /* Extensions.swift */; };
+		BC8D3C10201386B1006F9B25 /* RentalBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C0F201386B1006F9B25 /* RentalBox.swift */; };
+		BC8D3C1220138759006F9B25 /* RentalItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C1120138759006F9B25 /* RentalItemCell.swift */; };
+		BC8D3C14201387A2006F9B25 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C13201387A2006F9B25 /* BaseCell.swift */; };
+		BC8D3C16201396CF006F9B25 /* ImageLoaderPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8D3C15201396CF006F9B25 /* ImageLoaderPlaceholder.png */; };
+		BC8D3C182013AF72006F9B25 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C172013AF72006F9B25 /* GeoPoint.swift */; };
+		BC8D3C1A2013B284006F9B25 /* GetBoxesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C192013B284006F9B25 /* GetBoxesResult.swift */; };
+		BC8D3C1C2013BD69006F9B25 /* BoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C1B2013BD69006F9B25 /* BoxVC.swift */; };
+		BC8D3C1E2013CDE5006F9B25 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C1D2013CDE5006F9B25 /* CustomButton.swift */; };
+		BC8D3C232013CF3A006F9B25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C222013CF3A006F9B25 /* Constants.swift */; };
+		BC8D3C252013D71A006F9B25 /* SwampBoxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C242013D71A006F9B25 /* SwampBoxUtils.swift */; };
+		BC8D3C272013DCB9006F9B25 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C262013DCB9006F9B25 /* CircleImageView.swift */; };
+		BC8D3C292013FF1D006F9B25 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C282013FF1D006F9B25 /* MapPin.swift */; };
+		BC8D3C2B20142EFE006F9B25 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C2A20142EFE006F9B25 /* CustomHeaderView.swift */; };
+		BC8D3C2D20142FC7006F9B25 /* BoxAuthSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8D3C2C20142FC7006F9B25 /* BoxAuthSetupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AC1A01FCBA12A9F6AC4AC99 /* Pods-SwampBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwampBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox.debug.xcconfig"; sourceTree = "<group>"; };
+		44932A79A96A63B1C270DB87 /* Pods-SwampBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwampBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox.release.xcconfig"; sourceTree = "<group>"; };
+		9EB35792C1108FC619EC95CE /* Pods_SwampBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwampBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8D3BEE20131937006F9B25 /* SwampBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwampBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8D3BF120131937006F9B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC8D3BF320131937006F9B25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC8D3BF320131937006F9B25 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BC8D3BF620131937006F9B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8D3BF820131937006F9B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8D3BFB20131937006F9B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC8D3BFD20131937006F9B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8D3C0320131BDB006F9B25 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		BC8D3C0620134CFE006F9B25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC8D3C0820136F66006F9B25 /* SwampBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwampBox.entitlements; sourceTree = "<group>"; };
+		BC8D3C092013767E006F9B25 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BC8D3C0F201386B1006F9B25 /* RentalBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalBox.swift; sourceTree = "<group>"; };
+		BC8D3C1120138759006F9B25 /* RentalItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalItemCell.swift; sourceTree = "<group>"; };
+		BC8D3C13201387A2006F9B25 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		BC8D3C15201396CF006F9B25 /* ImageLoaderPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImageLoaderPlaceholder.png; path = Assets.xcassets/ImageLoaderPlaceholder.png; sourceTree = "<group>"; };
+		BC8D3C172013AF72006F9B25 /* GeoPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
+		BC8D3C192013B284006F9B25 /* GetBoxesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBoxesResult.swift; sourceTree = "<group>"; };
+		BC8D3C1B2013BD69006F9B25 /* BoxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxVC.swift; sourceTree = "<group>"; };
+		BC8D3C1D2013CDE5006F9B25 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BC8D3C222013CF3A006F9B25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC8D3C242013D71A006F9B25 /* SwampBoxUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwampBoxUtils.swift; sourceTree = "<group>"; };
+		BC8D3C262013DCB9006F9B25 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		BC8D3C282013FF1D006F9B25 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		BC8D3C2A20142EFE006F9B25 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		BC8D3C2C20142FC7006F9B25 /* BoxAuthSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxAuthSetupVC.swift; sourceTree = "<group>"; };
+		BC8D3C2E201478D3006F9B25 /* SwampBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwampBox-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FA7D8A3D7CA26B2E2653AA /* Pods_SwampBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EECD201E3F041C824FF5AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AC1A01FCBA12A9F6AC4AC99 /* Pods-SwampBox.debug.xcconfig */,
+				44932A79A96A63B1C270DB87 /* Pods-SwampBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DD5503F0DA65F245F87B383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB35792C1108FC619EC95CE /* Pods_SwampBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC8D3BE520131937006F9B25 = {
 			isa = PBXGroup;
 			children = (
 				BC8D3BF020131937006F9B25 /* SwampBox */,
 				BC8D3BEF20131937006F9B25 /* Products */,
+				22EECD201E3F041C824FF5AA /* Pods */,
+				8DD5503F0DA65F245F87B383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +114,73 @@
 		BC8D3BF020131937006F9B25 /* SwampBox */ = {
 			isa = PBXGroup;
 			children = (
+				BC8D3C212013CF27006F9B25 /* Utilities */,
+				BC8D3C0E20138293006F9B25 /* Extensions */,
+				BC8D3C0B2013825F006F9B25 /* Model */,
+				BC8D3C0C2013826E006F9B25 /* View */,
+				BC8D3C0D20138278006F9B25 /* Controller */,
+				BC8D3C0820136F66006F9B25 /* SwampBox.entitlements */,
 				BC8D3BF120131937006F9B25 /* AppDelegate.swift */,
-				BC8D3BF320131937006F9B25 /* ViewController.swift */,
 				BC8D3BF520131937006F9B25 /* Main.storyboard */,
 				BC8D3BF820131937006F9B25 /* Assets.xcassets */,
+				BC8D3C15201396CF006F9B25 /* ImageLoaderPlaceholder.png */,
 				BC8D3BFA20131937006F9B25 /* LaunchScreen.storyboard */,
 				BC8D3BFD20131937006F9B25 /* Info.plist */,
+				BC8D3C0620134CFE006F9B25 /* GoogleService-Info.plist */,
+				BC8D3C0320131BDB006F9B25 /* awsconfiguration.json */,
+				BC8D3C2E201478D3006F9B25 /* SwampBox-Bridging-Header.h */,
 			);
 			path = SwampBox;
+			sourceTree = "<group>";
+		};
+		BC8D3C0B2013825F006F9B25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D3C0F201386B1006F9B25 /* RentalBox.swift */,
+				BC8D3C172013AF72006F9B25 /* GeoPoint.swift */,
+				BC8D3C192013B284006F9B25 /* GetBoxesResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC8D3C0C2013826E006F9B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D3C1120138759006F9B25 /* RentalItemCell.swift */,
+				BC8D3C13201387A2006F9B25 /* BaseCell.swift */,
+				BC8D3C1D2013CDE5006F9B25 /* CustomButton.swift */,
+				BC8D3C262013DCB9006F9B25 /* CircleImageView.swift */,
+				BC8D3C282013FF1D006F9B25 /* MapPin.swift */,
+				BC8D3C2A20142EFE006F9B25 /* CustomHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC8D3C0D20138278006F9B25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D3BF320131937006F9B25 /* MainVC.swift */,
+				BC8D3C1B2013BD69006F9B25 /* BoxVC.swift */,
+				BC8D3C2C20142FC7006F9B25 /* BoxAuthSetupVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC8D3C0E20138293006F9B25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D3C092013767E006F9B25 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC8D3C212013CF27006F9B25 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D3C222013CF3A006F9B25 /* Constants.swift */,
+				BC8D3C242013D71A006F9B25 /* SwampBoxUtils.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC8D3C0020131937006F9B25 /* Build configuration list for PBXNativeTarget "SwampBox" */;
 			buildPhases = (
+				C9D6D8608AC05247928DED25 /* [CP] Check Pods Manifest.lock */,
 				BC8D3BEA20131937006F9B25 /* Sources */,
 				BC8D3BEB20131937006F9B25 /* Frameworks */,
 				BC8D3BEC20131937006F9B25 /* Resources */,
+				A2FB603B01572ABA7B4D77D6 /* [CP] Embed Pods Frameworks */,
+				572D39B790744B942E6672C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +219,11 @@
 					BC8D3BED20131937006F9B25 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,21 +250,138 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8D3C0420131BDB006F9B25 /* awsconfiguration.json in Resources */,
 				BC8D3BFC20131937006F9B25 /* LaunchScreen.storyboard in Resources */,
+				BC8D3C0720134CFE006F9B25 /* GoogleService-Info.plist in Resources */,
 				BC8D3BF920131937006F9B25 /* Assets.xcassets in Resources */,
+				BC8D3C16201396CF006F9B25 /* ImageLoaderPlaceholder.png in Resources */,
 				BC8D3BF720131937006F9B25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		572D39B790744B942E6672C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FB603B01572ABA7B4D77D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwampBox/Pods-SwampBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D6D8608AC05247928DED25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwampBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC8D3BEA20131937006F9B25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8D3BF420131937006F9B25 /* ViewController.swift in Sources */,
+				BC8D3C252013D71A006F9B25 /* SwampBoxUtils.swift in Sources */,
+				BC8D3C1220138759006F9B25 /* RentalItemCell.swift in Sources */,
+				BC8D3C292013FF1D006F9B25 /* MapPin.swift in Sources */,
+				BC8D3C232013CF3A006F9B25 /* Constants.swift in Sources */,
+				BC8D3C2D20142FC7006F9B25 /* BoxAuthSetupVC.swift in Sources */,
+				BC8D3C1C2013BD69006F9B25 /* BoxVC.swift in Sources */,
+				BC8D3C10201386B1006F9B25 /* RentalBox.swift in Sources */,
+				BC8D3BF420131937006F9B25 /* MainVC.swift in Sources */,
+				BC8D3C272013DCB9006F9B25 /* CircleImageView.swift in Sources */,
+				BC8D3C1E2013CDE5006F9B25 /* CustomButton.swift in Sources */,
+				BC8D3C0A2013767E006F9B25 /* Extensions.swift in Sources */,
+				BC8D3C2B20142EFE006F9B25 /* CustomHeaderView.swift in Sources */,
+				BC8D3C182013AF72006F9B25 /* GeoPoint.swift in Sources */,
+				BC8D3C14201387A2006F9B25 /* BaseCell.swift in Sources */,
 				BC8D3BF220131937006F9B25 /* AppDelegate.swift in Sources */,
+				BC8D3C1A2013B284006F9B25 /* GetBoxesResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +516,19 @@
 		};
 		BC8D3C0120131937006F9B25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC1A01FCBA12A9F6AC4AC99 /* Pods-SwampBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwampBox/SwampBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9V7XFQG75K;
 				INFOPLIST_FILE = SwampBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brettmwright.SwampBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwampBox/SwampBox-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +536,19 @@
 		};
 		BC8D3C0220131937006F9B25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44932A79A96A63B1C270DB87 /* Pods-SwampBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwampBox/SwampBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9V7XFQG75K;
 				INFOPLIST_FILE = SwampBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brettmwright.SwampBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwampBox/SwampBox-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

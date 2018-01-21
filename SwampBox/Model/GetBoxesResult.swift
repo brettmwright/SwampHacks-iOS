@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class GetBoxesResult: Decodable {
+    var success: Int?
+    var message: [RentalBox]?
+}
